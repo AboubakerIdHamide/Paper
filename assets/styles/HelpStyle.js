@@ -7,8 +7,32 @@ export default styles = StyleSheet.create({
       height:"94%",
       backgroundColor: '#fff',
       display:'flex',
-      justifyContent:'center',
+      alignItems:'flex-end',
       borderRadius:5,
+      paddingTop:50,
+    },
+    headingText:{
+      marginBottom:30,
+      width:"100%",
+      textAlign:"center",
+      fontFamily:'Tajawal-Medium',
+      fontSize:24,
+      color:colors.success
+    },
+    subText:{
+      marginBottom:35,
+      width:"100%",
+      textAlign:"center",
+      fontFamily:'Tajawal-Medium',
+      fontSize:16,
+      lineHeight:22
+    },
+    footerText:{
+      width:"100%",
+      textAlign:"center",
+      fontFamily:'Tajawal-Medium',
+      fontSize:14,
+      color:colors.success
     },
     loading:{ 
         flex: 1,

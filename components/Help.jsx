@@ -47,15 +47,15 @@ const Help = ({navigation}) => {
           </TouchableOpacity>
       </View>
       <View style={styles.helpContainer}>
-        <Text>بسم الله الرحمن الرحيم</Text>
-        <Text>يمثل كل صف في الجدول سؤالًا أو مهمة.</Text>
-        <Text>يحتوي كل سؤال على حقل إدخال حيث يمكنك إدخال إجابتك.</Text>
-        <Text>بعد إدخال إجابتك ، ستحتاج إلى التحقق منها.</Text>
-        <Text>بمجرد النقر على  زر الخطاء او الصحيح ، ستصبح حقول الإدخال غير قابلة للتعديل.</Text>
-        <Text>استمر في إدخال الإجابات  لكل صف في الجدول</Text>
-        <Text>بعد التحقق من الإجابات يمكنك الظغط على زر النتيجة لترى الحاصل النهائي</Text>
-        <Text>بعد الإنهاء يمكنك الضغط على زر الإعادة لبدء سلسلة جديدة</Text>
-        <Text>وفقنا الله وإياكم لما يحبه ويرضاه</Text>
+        <Text style={styles.headingText}>بسم الله الرحمن الرحيم</Text>
+        <Text style={styles.subText}>يمثل كل صف في الجدول سؤالًا .</Text>
+        <Text style={styles.subText}>يحتوي كل سؤال على حقل إدخال حيث يمكنك إدخال إجابتك.</Text>
+        <Text style={styles.subText}>بعد إدخال إجابتك ، ستحتاج إلى التحقق منها.</Text>
+        <Text style={styles.subText}>بمجرد النقر على  زر الخطاء او الصحيح ، ستصبح حقول الإدخال غير قابلة للتعديل.</Text>
+        <Text style={styles.subText}>استمر في إدخال الإجابات  لكل صف في الجدول</Text>
+        <Text style={styles.subText}>بعد التحقق من الإجابات يمكنك الظغط على زر النتيجة لترى الحاصل النهائي</Text>
+        <Text style={styles.subText}>بعد الإنهاء يمكنك الضغط على زر الإعادة لبدء سلسلة جديدة</Text>
+        <Text style={styles.footerText}>وفقنا الله وإياكم لما يحبه ويرضاه</Text>
       </View>
     </View>
   )
