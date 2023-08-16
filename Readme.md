@@ -12,4 +12,4 @@ The Paper is a mobile application built using React Native, and React Navigation
 
 ![Screenshot 1](./assets/thumbnail.png)
 
-<a href="https://github.com/AboubakerIdHamide/Paper/blob/main/paper.apk" download>Download</a>
+<a href="https://github.com/AboubakerIdHamide/Paper/blob/main/paper.apk" download="true">Download</a>
